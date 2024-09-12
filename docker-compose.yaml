@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  end-to-end-test-app:
+    container_name: end-to-end-test-app 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"

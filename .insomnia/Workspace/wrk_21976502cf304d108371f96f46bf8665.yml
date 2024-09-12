@@ -1,0 +1,8 @@
+_id: wrk_end-to-end-test-app
+type: Workspace
+parentId: null
+modified: 1674571802202
+created: 1674571802202
+name: end-to-end-test-app.yaml
+description: ""
+scope: design
