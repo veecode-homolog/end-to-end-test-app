@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: end-to-end-test-app
   title: end-to-end-test-app
-  publishedAt: "2024-09-12 19:40:44"
+  publishedAt: "2024-09-13 13:49:37"
   description: ' Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.'
   tags:
     - java
