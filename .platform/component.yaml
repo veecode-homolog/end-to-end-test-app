@@ -12,7 +12,7 @@ metadata:
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: "end-to-end-test-app"
     kong-manager/service-name: veecode-homolog.end-to-end-test-app-service-0.8080
-    kong-manager/instance: kong-manager/api
+    kong-manager/instance: instance
 spec:
   type: service
   lifecycle: experimental
