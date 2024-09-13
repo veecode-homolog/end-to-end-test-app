@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: veecode-homolog/end-to-end-test-app
     backstage.io/techdocs-ref: dir:..
     backstage.io/kubernetes-id: "end-to-end-test-app"
+    kubernetes.io/auth-provider: 'config'
     vault.io/secrets-path: "end-to-end-test-app"
     grafana/dashboard-selector: "end-to-end-test-app"
     grafana/alert-label-selector: "alertname=end-to-end-test-app"
