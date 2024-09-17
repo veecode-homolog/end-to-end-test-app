@@ -1,0 +1,20 @@
+apiVersion: veecode.backstage.io/v1alpha1
+kind: Cluster
+metadata:
+  name: "cluster-demo"
+  environment:
+    cluster_type: vm
+    domain: cluster-demo.oci2.platform.vee.codes
+    ingress_type: kong
+    public_ip: 132.226.41.224
+  annotations:
+    gitlab.com/project-slug: veecode-demo01/oci-demo/projetos/cluster-demo
+    gitlab.com/jobs: DEPLOY_JOB:DEPLOY_JOB,DESTROY_JOB:DESTROY_JOB,KUBECONFIG_JOB:KUBECONFIG_JOB
+    grafana/dashboard-selector: "cluster-demo"
+    grafana/alert-label-selector: "alertname=cluster-demo"
+spec:
+  type: ec2
+  lifecycle: experimental
+  owner: "group:default/admin"
+  environment: 'environment:default/platform_oci_homolog'
+
