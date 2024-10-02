@@ -7,8 +7,8 @@ metadata:
     backstage.io/techdocs-ref: dir:..
     backstage.io/kubernetes-id: "end-to-end-test-app"
     kubernetes.io/auth-provider: 'config'
-    vault.io/secrets-path: "end-to-end-test-app"
-    grafana/dashboard-selector: "app-exemple-platform-obs"
+    vault.io/secrets-path: "app-exemple-platform-obs"
+    grafana/dashboard-selector: "end-to-end-test-app"
     grafana/alert-label-selector: "alertname=end-to-end-test-app"
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: "end-to-end-test-app"
