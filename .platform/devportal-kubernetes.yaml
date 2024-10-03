@@ -8,6 +8,7 @@ metadata:
     domain: vkpr.platform.vee.codes
     public_ip: 54.211.50.157
   annotations:
+    backstage.io/kubernetes-id: devportal-kubernetes
     #kubernetes.io/secret-name: 'devportal-kubernetes-secret'
     #kubernetes.io/secret-namespace: 'veecode-validation'
     #kubernetes.io/auth-provider: 'custom'
